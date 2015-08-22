@@ -1,0 +1,49 @@
+
+body{
+  margin:0px;
+  padding:0px;
+  color:#FFF;
+}
+#container{
+  background-color:#000;
+  text-align:center;
+  overflow:hidden;
+}
+img{
+  position:relative;
+  width:100%;
+  top:-400px;
+  z-index=-1;
+  opacity:.5;
+  -webkit-filter: blur(10px); -moz-filter: blur(3px);
+-o-filter: blur(3px); -ms-filter: blur(3px);
+filter: url(#blur); filter: blur(3px);  filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');
+}
+span{font-size:1.5em;}
+#content
+{
+  margin-top: 150px;
+}
+
+/*This style are for the nav*/
+#links{
+font-size: .7em;
+padding: 20px;
+color:#EC407A;
+}
+#links{
+    margin-top: 10px;
+    text-align: center;
+}
+#links a {
+    text-decoration: none;
+    border-radius:8px ;
+    border-style:solid ;
+    color: #ffffff;
+    font-size: 1em;
+    padding: 5px;
+
+}
+#links a#home:hover{ background:#F8BBD0 ;color:#F06292;     text-decoration: line;}
+#links a#about:hover{ background:#F8BBD0 ;color:#F06292;     text-decoration: line;}
+#links a#contact:hover{ background:#F8BBD0 ;color:#F06292;     text-decoration: line;}
